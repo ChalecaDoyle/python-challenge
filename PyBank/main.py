@@ -56,8 +56,8 @@ with open(csvpath) as csvfile:
     print("Financial Analysis")
     print('......................')
     print(f'Total Months: {row_count}')
-    print ("Total: $" + str(sum_total))
+    print ("Total: $" + str(sum_profits))
     print(f'Average Change: {average_change}')
-    print(f'Greatest Increase in Profits: {months_max_value} {max_value}')
-    print(f'Greatest Decrease in Profits: {months_min_value} {min_value}')
+    #print(f'Greatest Increase in Profits: {months_max_value} {max_value}')
+    #print(f'Greatest Decrease in Profits: {months_min_value} {min_value}')
     
